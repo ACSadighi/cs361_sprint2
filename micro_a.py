@@ -13,5 +13,4 @@ while True:
     path = 'Image not found'
     if plant_image in images:
         path = d + '/' + plant_image
-    print('Microservice responding...\n')
     socket.send_string(path)
